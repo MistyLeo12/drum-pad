@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7E96B923485E5600CDD20E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E96B823485E5600CDD20E /* AppDelegate.swift */; };
+		FC7E96BB23485E5600CDD20E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E96BA23485E5600CDD20E /* SceneDelegate.swift */; };
+		FC7E96BD23485E5600CDD20E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E96BC23485E5600CDD20E /* ViewController.swift */; };
+		FC7E96C023485E5600CDD20E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7E96BE23485E5600CDD20E /* Main.storyboard */; };
+		FC7E96C223485E5700CDD20E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7E96C123485E5700CDD20E /* Assets.xcassets */; };
+		FC7E96C523485E5700CDD20E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7E96C323485E5700CDD20E /* LaunchScreen.storyboard */; };
+		FC7E96D023485E5700CDD20E /* lildrum_padTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E96CF23485E5700CDD20E /* lildrum_padTests.swift */; };
+		FC7E96DB23485E5700CDD20E /* lildrum_padUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E96DA23485E5700CDD20E /* lildrum_padUITests.swift */; };
+		FC7E97252348604500CDD20E /* sound8.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97162348604500CDD20E /* sound8.wav */; };
+		FC7E97262348604500CDD20E /* sound9.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97172348604500CDD20E /* sound9.wav */; };
+		FC7E97272348604500CDD20E /* sound13.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97182348604500CDD20E /* sound13.wav */; };
+		FC7E97282348604500CDD20E /* sound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97192348604500CDD20E /* sound2.wav */; };
+		FC7E97292348604500CDD20E /* sound3.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E971A2348604500CDD20E /* sound3.wav */; };
+		FC7E972A2348604500CDD20E /* sound12.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E971B2348604500CDD20E /* sound12.wav */; };
+		FC7E972B2348604500CDD20E /* sound10.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E971C2348604500CDD20E /* sound10.wav */; };
+		FC7E972C2348604500CDD20E /* sound1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E971D2348604500CDD20E /* sound1.wav */; };
+		FC7E972D2348604500CDD20E /* sound11.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E971E2348604500CDD20E /* sound11.wav */; };
+		FC7E972E2348604500CDD20E /* sound15.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E971F2348604500CDD20E /* sound15.wav */; };
+		FC7E972F2348604500CDD20E /* sound4.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97202348604500CDD20E /* sound4.wav */; };
+		FC7E97302348604500CDD20E /* sound5.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97212348604500CDD20E /* sound5.wav */; };
+		FC7E97312348604500CDD20E /* sound14.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97222348604500CDD20E /* sound14.wav */; };
+		FC7E97322348604500CDD20E /* sound7.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97232348604500CDD20E /* sound7.wav */; };
+		FC7E97332348604500CDD20E /* sound6.wav in Resources */ = {isa = PBXBuildFile; fileRef = FC7E97242348604500CDD20E /* sound6.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC7E96CC23485E5700CDD20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7E96AD23485E5600CDD20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7E96B423485E5600CDD20E;
+			remoteInfo = "lildrum-pad";
+		};
+		FC7E96D723485E5700CDD20E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7E96AD23485E5600CDD20E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7E96B423485E5600CDD20E;
+			remoteInfo = "lildrum-pad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC7E96B523485E5600CDD20E /* lildrum-pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lildrum-pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7E96B823485E5600CDD20E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC7E96BA23485E5600CDD20E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC7E96BC23485E5600CDD20E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC7E96BF23485E5600CDD20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC7E96C123485E5700CDD20E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC7E96C423485E5700CDD20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC7E96C623485E5700CDD20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7E96CB23485E5700CDD20E /* lildrum-padTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lildrum-padTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7E96CF23485E5700CDD20E /* lildrum_padTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lildrum_padTests.swift; sourceTree = "<group>"; };
+		FC7E96D123485E5700CDD20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7E96D623485E5700CDD20E /* lildrum-padUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lildrum-padUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7E96DA23485E5700CDD20E /* lildrum_padUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lildrum_padUITests.swift; sourceTree = "<group>"; };
+		FC7E96DC23485E5700CDD20E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7E97162348604500CDD20E /* sound8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound8.wav; sourceTree = "<group>"; };
+		FC7E97172348604500CDD20E /* sound9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound9.wav; sourceTree = "<group>"; };
+		FC7E97182348604500CDD20E /* sound13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound13.wav; sourceTree = "<group>"; };
+		FC7E97192348604500CDD20E /* sound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound2.wav; sourceTree = "<group>"; };
+		FC7E971A2348604500CDD20E /* sound3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound3.wav; sourceTree = "<group>"; };
+		FC7E971B2348604500CDD20E /* sound12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound12.wav; sourceTree = "<group>"; };
+		FC7E971C2348604500CDD20E /* sound10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound10.wav; sourceTree = "<group>"; };
+		FC7E971D2348604500CDD20E /* sound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.wav; sourceTree = "<group>"; };
+		FC7E971E2348604500CDD20E /* sound11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound11.wav; sourceTree = "<group>"; };
+		FC7E971F2348604500CDD20E /* sound15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound15.wav; sourceTree = "<group>"; };
+		FC7E97202348604500CDD20E /* sound4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound4.wav; sourceTree = "<group>"; };
+		FC7E97212348604500CDD20E /* sound5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound5.wav; sourceTree = "<group>"; };
+		FC7E97222348604500CDD20E /* sound14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound14.wav; sourceTree = "<group>"; };
+		FC7E97232348604500CDD20E /* sound7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound7.wav; sourceTree = "<group>"; };
+		FC7E97242348604500CDD20E /* sound6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound6.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7E96B223485E5600CDD20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7E96C823485E5700CDD20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7E96D323485E5700CDD20E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7E96AC23485E5600CDD20E = {
+			isa = PBXGroup;
+			children = (
+				FC7E96B723485E5600CDD20E /* lildrum-pad */,
+				FC7E96CE23485E5700CDD20E /* lildrum-padTests */,
+				FC7E96D923485E5700CDD20E /* lildrum-padUITests */,
+				FC7E96B623485E5600CDD20E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7E96B623485E5600CDD20E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7E96B523485E5600CDD20E /* lildrum-pad.app */,
+				FC7E96CB23485E5700CDD20E /* lildrum-padTests.xctest */,
+				FC7E96D623485E5700CDD20E /* lildrum-padUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7E96B723485E5600CDD20E /* lildrum-pad */ = {
+			isa = PBXGroup;
+			children = (
+				FC7E96B823485E5600CDD20E /* AppDelegate.swift */,
+				FC7E96BA23485E5600CDD20E /* SceneDelegate.swift */,
+				FC7E96BC23485E5600CDD20E /* ViewController.swift */,
+				FC7E96BE23485E5600CDD20E /* Main.storyboard */,
+				FC7E96C123485E5700CDD20E /* Assets.xcassets */,
+				FC7E96C323485E5700CDD20E /* LaunchScreen.storyboard */,
+				FC7E96C623485E5700CDD20E /* Info.plist */,
+				FC7E97152348604500CDD20E /* sounds */,
+			);
+			path = "lildrum-pad";
+			sourceTree = "<group>";
+		};
+		FC7E96CE23485E5700CDD20E /* lildrum-padTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7E96CF23485E5700CDD20E /* lildrum_padTests.swift */,
+				FC7E96D123485E5700CDD20E /* Info.plist */,
+			);
+			path = "lildrum-padTests";
+			sourceTree = "<group>";
+		};
+		FC7E96D923485E5700CDD20E /* lildrum-padUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7E96DA23485E5700CDD20E /* lildrum_padUITests.swift */,
+				FC7E96DC23485E5700CDD20E /* Info.plist */,
+			);
+			path = "lildrum-padUITests";
+			sourceTree = "<group>";
+		};
+		FC7E97152348604500CDD20E /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FC7E97162348604500CDD20E /* sound8.wav */,
+				FC7E97172348604500CDD20E /* sound9.wav */,
+				FC7E97182348604500CDD20E /* sound13.wav */,
+				FC7E97192348604500CDD20E /* sound2.wav */,
+				FC7E971A2348604500CDD20E /* sound3.wav */,
+				FC7E971B2348604500CDD20E /* sound12.wav */,
+				FC7E971C2348604500CDD20E /* sound10.wav */,
+				FC7E971D2348604500CDD20E /* sound1.wav */,
+				FC7E971E2348604500CDD20E /* sound11.wav */,
+				FC7E971F2348604500CDD20E /* sound15.wav */,
+				FC7E97202348604500CDD20E /* sound4.wav */,
+				FC7E97212348604500CDD20E /* sound5.wav */,
+				FC7E97222348604500CDD20E /* sound14.wav */,
+				FC7E97232348604500CDD20E /* sound7.wav */,
+				FC7E97242348604500CDD20E /* sound6.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7E96B423485E5600CDD20E /* lildrum-pad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7E96DF23485E5700CDD20E /* Build configuration list for PBXNativeTarget "lildrum-pad" */;
+			buildPhases = (
+				FC7E96B123485E5600CDD20E /* Sources */,
+				FC7E96B223485E5600CDD20E /* Frameworks */,
+				FC7E96B323485E5600CDD20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lildrum-pad";
+			productName = "lildrum-pad";
+			productReference = FC7E96B523485E5600CDD20E /* lildrum-pad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC7E96CA23485E5700CDD20E /* lildrum-padTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7E96E223485E5700CDD20E /* Build configuration list for PBXNativeTarget "lildrum-padTests" */;
+			buildPhases = (
+				FC7E96C723485E5700CDD20E /* Sources */,
+				FC7E96C823485E5700CDD20E /* Frameworks */,
+				FC7E96C923485E5700CDD20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7E96CD23485E5700CDD20E /* PBXTargetDependency */,
+			);
+			name = "lildrum-padTests";
+			productName = "lildrum-padTests";
+			productReference = FC7E96CB23485E5700CDD20E /* lildrum-padTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC7E96D523485E5700CDD20E /* lildrum-padUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7E96E523485E5700CDD20E /* Build configuration list for PBXNativeTarget "lildrum-padUITests" */;
+			buildPhases = (
+				FC7E96D223485E5700CDD20E /* Sources */,
+				FC7E96D323485E5700CDD20E /* Frameworks */,
+				FC7E96D423485E5700CDD20E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7E96D823485E5700CDD20E /* PBXTargetDependency */,
+			);
+			name = "lildrum-padUITests";
+			productName = "lildrum-padUITests";
+			productReference = FC7E96D623485E5700CDD20E /* lildrum-padUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7E96AD23485E5600CDD20E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Gabe Crowell";
+				TargetAttributes = {
+					FC7E96B423485E5600CDD20E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					FC7E96CA23485E5700CDD20E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FC7E96B423485E5600CDD20E;
+					};
+					FC7E96D523485E5700CDD20E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FC7E96B423485E5600CDD20E;
+					};
+				};
+			};
+			buildConfigurationList = FC7E96B023485E5600CDD20E /* Build configuration list for PBXProject "lildrum-pad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7E96AC23485E5600CDD20E;
+			productRefGroup = FC7E96B623485E5600CDD20E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7E96B423485E5600CDD20E /* lildrum-pad */,
+				FC7E96CA23485E5700CDD20E /* lildrum-padTests */,
+				FC7E96D523485E5700CDD20E /* lildrum-padUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7E96B323485E5600CDD20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E97302348604500CDD20E /* sound5.wav in Resources */,
+				FC7E97262348604500CDD20E /* sound9.wav in Resources */,
+				FC7E96C523485E5700CDD20E /* LaunchScreen.storyboard in Resources */,
+				FC7E972D2348604500CDD20E /* sound11.wav in Resources */,
+				FC7E97292348604500CDD20E /* sound3.wav in Resources */,
+				FC7E97312348604500CDD20E /* sound14.wav in Resources */,
+				FC7E97272348604500CDD20E /* sound13.wav in Resources */,
+				FC7E96C223485E5700CDD20E /* Assets.xcassets in Resources */,
+				FC7E97322348604500CDD20E /* sound7.wav in Resources */,
+				FC7E97282348604500CDD20E /* sound2.wav in Resources */,
+				FC7E96C023485E5600CDD20E /* Main.storyboard in Resources */,
+				FC7E972B2348604500CDD20E /* sound10.wav in Resources */,
+				FC7E972F2348604500CDD20E /* sound4.wav in Resources */,
+				FC7E97252348604500CDD20E /* sound8.wav in Resources */,
+				FC7E972A2348604500CDD20E /* sound12.wav in Resources */,
+				FC7E972C2348604500CDD20E /* sound1.wav in Resources */,
+				FC7E972E2348604500CDD20E /* sound15.wav in Resources */,
+				FC7E97332348604500CDD20E /* sound6.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7E96C923485E5700CDD20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7E96D423485E5700CDD20E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7E96B123485E5600CDD20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E96BD23485E5600CDD20E /* ViewController.swift in Sources */,
+				FC7E96B923485E5600CDD20E /* AppDelegate.swift in Sources */,
+				FC7E96BB23485E5600CDD20E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7E96C723485E5700CDD20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E96D023485E5700CDD20E /* lildrum_padTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7E96D223485E5700CDD20E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7E96DB23485E5700CDD20E /* lildrum_padUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC7E96CD23485E5700CDD20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7E96B423485E5600CDD20E /* lildrum-pad */;
+			targetProxy = FC7E96CC23485E5700CDD20E /* PBXContainerItemProxy */;
+		};
+		FC7E96D823485E5700CDD20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7E96B423485E5600CDD20E /* lildrum-pad */;
+			targetProxy = FC7E96D723485E5700CDD20E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC7E96BE23485E5600CDD20E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7E96BF23485E5600CDD20E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC7E96C323485E5700CDD20E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7E96C423485E5700CDD20E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7E96DD23485E5700CDD20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC7E96DE23485E5700CDD20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7E96E023485E5700CDD20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RX675RDX2;
+				INFOPLIST_FILE = "lildrum-pad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabecrowell.lildrum-pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC7E96E123485E5700CDD20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RX675RDX2;
+				INFOPLIST_FILE = "lildrum-pad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabecrowell.lildrum-pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC7E96E323485E5700CDD20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RX675RDX2;
+				INFOPLIST_FILE = "lildrum-padTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabecrowell.lildrum-padTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lildrum-pad.app/lildrum-pad";
+			};
+			name = Debug;
+		};
+		FC7E96E423485E5700CDD20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RX675RDX2;
+				INFOPLIST_FILE = "lildrum-padTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabecrowell.lildrum-padTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lildrum-pad.app/lildrum-pad";
+			};
+			name = Release;
+		};
+		FC7E96E623485E5700CDD20E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RX675RDX2;
+				INFOPLIST_FILE = "lildrum-padUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabecrowell.lildrum-padUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lildrum-pad";
+			};
+			name = Debug;
+		};
+		FC7E96E723485E5700CDD20E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RX675RDX2;
+				INFOPLIST_FILE = "lildrum-padUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabecrowell.lildrum-padUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lildrum-pad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7E96B023485E5600CDD20E /* Build configuration list for PBXProject "lildrum-pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7E96DD23485E5700CDD20E /* Debug */,
+				FC7E96DE23485E5700CDD20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7E96DF23485E5700CDD20E /* Build configuration list for PBXNativeTarget "lildrum-pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7E96E023485E5700CDD20E /* Debug */,
+				FC7E96E123485E5700CDD20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7E96E223485E5700CDD20E /* Build configuration list for PBXNativeTarget "lildrum-padTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7E96E323485E5700CDD20E /* Debug */,
+				FC7E96E423485E5700CDD20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7E96E523485E5700CDD20E /* Build configuration list for PBXNativeTarget "lildrum-padUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7E96E623485E5700CDD20E /* Debug */,
+				FC7E96E723485E5700CDD20E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7E96AD23485E5600CDD20E /* Project object */;
+}
