@@ -8,7 +8,7 @@ Design a better UI and allow for drum pads to have their preset sounds changed. 
 
 ## Screenshot 
  <p align="center"> 
-    <img src="basicUI.png" width="400" height="600">
+    <img src="basicUI.png" width="300" height="600">
  </p>
 
 
